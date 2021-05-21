@@ -1,3 +1,5 @@
+# This module displays information about ths OS abd the platform on which it is executed.
+
 import os
 import platform
 
@@ -16,3 +18,6 @@ print("Platform processor:" , platform.processor())
 
 # Display platform architecture
 print("Platform architecture:" , platform.architecture())
+
+# Display the machine type (width and size of registers available in the machine core)
+print("Machine type:" , platform.machine())
