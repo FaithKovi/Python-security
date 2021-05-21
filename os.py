@@ -24,3 +24,6 @@ print("Machine type:" , platform.machine())
 
 # Display the node information (network name)
 print("System network name:" , platform.node())
+
+# Display all system information (used to replace previous)
+print("System info:", platform.system())
