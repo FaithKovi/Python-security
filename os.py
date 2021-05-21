@@ -21,3 +21,6 @@ print("Platform architecture:" , platform.architecture())
 
 # Display the machine type (width and size of registers available in the machine core)
 print("Machine type:" , platform.machine())
+
+# Display the node information (network name)
+print("System network name:" , platform.node())
